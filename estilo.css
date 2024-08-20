@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: rgb(217, 165, 33);
+  font-size: 20px;
+}
+
+.navbar a {
+  margin: 0px 30px;
+  text-decoration: none;
+
+}
+
+.navbar a:hover {
+  background-color: white
+}
+
+section {
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.imagem-1 {
+  background-image: url(https://tm.ibxk.com.br/2022/03/22/22105448642164.jpg);
+}
+
+.imagem-2 {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.imagem-3 {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.imagem-4 {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.imagem-5 {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+
+.p-i {
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: initial;
+  margin-left: 10px;
+  text-align: justify;
+  font-size: larger;
+  padding: 10px;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+h1 {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h1:hover {
+  background-color: white;
+}
+
+h2 {
+  margin-top: 20px;
+  font-size: 50px;
+}
+
+img {
+  height: 300px;
+  width: 300px;
+  ;
+}
+
+h3 {
+  margin-left: 20px;
+  margin-bottom: 30px;
+  font-size: x-large;
+}
+
+video {
+  width: 500px;
+  height: 500px;
+  border-radius: 5px;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+p {
+  margin-left: 20px;
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.tabela {
+  margin: auto;
+  width: 1000px;
+  height: 600px;
+  text-align: center;
+}
+
+.tabela-item-1,
+.tabela-item-2,
+.tabela-item-3,
+.tabela-item-4,
+.tabela-item-5,
+.tabela-item-6,
+.tabela-item-7 {
+  width: 50px;
+  height: 50px;
+}
+
+.contato {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.contatos {
+  margin-left: 30px;
+  text-align: center;
+}
